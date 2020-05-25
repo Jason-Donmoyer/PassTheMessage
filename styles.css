@@ -1,0 +1,60 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: skyblue;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.content {
+  background-color: lightgray;
+  width: 90%;
+  height: 70%;
+  align-self: center;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 2.2rem;
+}
+
+input {
+  display: block;
+  height: 40px;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+input:focus {
+  background-color: yellow;
+}
+
+button {
+  margin-top: 20px;
+  height: 80px;
+  width: 160px;
+  border-radius: 5px;
+  font-size: 2rem;
+  color: white;
+  background-color: skyblue;
+  cursor: pointer;
+}
+
+button:hover {
+  color: yellow;
+  border: 4px solid blue;
+}
+
+#output {
+  color: blue;
+}
